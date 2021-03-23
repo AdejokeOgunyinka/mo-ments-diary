@@ -1,4 +1,4 @@
-import {SignUpContainer, SignUpFormContainer, Picture, PictureContainer, TextBox, Button} from './style';
+import {SignUpContainer, SignUpFormContainer, Picture, PictureContainer, TextBox, Button, SignUpHeader} from './style';
 import image from '../../images/image5.jpg';
 
 
@@ -6,7 +6,7 @@ export const SignUp = ({children}) => {
     return(
         <SignUpContainer>
             <SignUpFormContainer>
-                <h1>Sign Up</h1>
+                <h1 style={SignUpHeader}>Sign Up</h1>
                 <TextBox placeholder='Username'/>
                 <TextBox placeholder='Password'/>
                 <TextBox placeholder='Confirm Password'/>
@@ -15,7 +15,6 @@ export const SignUp = ({children}) => {
             <PictureContainer>
                 <Picture src={image}/>
             </PictureContainer>
-            
         </SignUpContainer>
     )
 };

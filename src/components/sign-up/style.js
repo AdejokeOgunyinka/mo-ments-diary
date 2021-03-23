@@ -23,7 +23,7 @@ export const Picture = styled.img`
 
 export const SignUpFormContainer = styled.div`
     flex-basis: 35%;
-    height: 80%;
+    height: 85%;
     background-color: #d1d2d1;
     align-self: center;
     display: flex;
@@ -39,15 +39,26 @@ export const TextBox = styled.input`
     height: 40px;
     outline: none;
     border: none;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     padding-left: 20px;
+    font-size: 17px;
+    font-family: Ubuntu;
+    font-weight: 500;
 `;
 
 export const Button = styled.button`
     width: 200px;
-    height: 35px;
+    height: 45px;
     border: none;
     border-radius: 15px;
     background-color: #20b2aa;
-    font-size: 15px;
+    font-size: 20px;
+    font-family: Ubuntu;
+    font-weight: 500;
 `;
+
+export const SignUpHeader = {
+    'font-family': 'Ubuntu',
+    'font-size': '40px',
+    'font-weight': 700
+};

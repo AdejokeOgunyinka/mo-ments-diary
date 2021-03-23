@@ -34,4 +34,7 @@ export const Button = styled.button`
     border-radius: 20px;
     border: none;
     cursor: pointer;
+    font-family: Ubuntu;
+    font-size: 14px;
+    font-weight: 500;
 `;
