@@ -3,8 +3,7 @@ import styled from 'styled-components';
 
 export const Canvas =  styled.div`
     width: 100%;
-    height: 500px;
-    position: absolute;
+    height: 600px;
     display: flex;
     justify-content: center;
 `;
