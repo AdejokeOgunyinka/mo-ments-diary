@@ -7,7 +7,7 @@ import {
   Button,
   SignUpHeader,
 } from "./style";
-import image from "../../images/image5.jpg";
+import image from "../../atoms/images/image5.jpg";
 
 export const SignUp = ({ children }) => {
   return (

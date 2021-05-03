@@ -1,5 +1,5 @@
 import { NavContainer, LogoContainer, Logo, AllButtons, Button } from "./style";
-import logo from "../../images/cover2.png";
+import logo from "../../atoms/images/cover2.png";
 
 export const NavBar = ({ children }) => {
   return (

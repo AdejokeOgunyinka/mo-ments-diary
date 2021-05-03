@@ -1,5 +1,5 @@
 import './App.css';
-import {LandingPage} from './components/landing-page/index';
+import {LandingPage} from './components/organisms/landing-page/index';
 
 function App() {
   return (

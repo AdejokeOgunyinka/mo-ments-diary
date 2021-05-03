@@ -6,7 +6,7 @@ import {
   PictureContainer,
   Picture,
 } from "./style";
-import image from "../../images/images.jpg";
+import image from "../../atoms/images/images.jpg";
 
 export const About = ({ children }) => {
   return (
@@ -15,7 +15,7 @@ export const About = ({ children }) => {
         <Picture src={image} />
       </PictureContainer>
       <TextContainer>
-        <h1 style={HeaderStyle}>About MO-ments</h1>
+        <h1 style={HeaderStyle}>About Mo-ments</h1>
         <p style={BodyStyle}>
           Mo-ments is an online diary made just for you. Here, you can record
           your special daily moments and add pictures to it. Feel free to speak

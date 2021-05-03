@@ -18,11 +18,13 @@ export const TextContainer = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
+  box-sizing: border-box;
 `;
 
 export const PictureContainer = styled.div`
   flex-basis: 20%;
   width: 200px;
+  
   height: 200px;
   display: flex;
   border-radius: 50%;
@@ -46,8 +48,8 @@ export const HeaderStyle = {
 
 export const BodyStyle = {
   "font-family": "Ubuntu",
-  "font-size": "25px",
-  "font-weight": 300,
+  "font-size": "24px",
+  "font-weight": 100,
   "margin-left": "100px",
   "margin-right": "100px",
 };

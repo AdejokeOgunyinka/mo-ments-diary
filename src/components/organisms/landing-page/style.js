@@ -5,6 +5,7 @@ export const Canvas = styled.div`
   height: 600px;
   display: flex;
   justify-content: center;
+  box-sizing: border-box;
 `;
 
 export const Image = styled.img`
