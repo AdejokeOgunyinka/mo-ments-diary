@@ -1,7 +1,7 @@
 import {
   AboutContainer,
-  HeaderStyle,
-  BodyStyle,
+  Header,
+  Text,
   TextContainer,
   PictureContainer,
   Picture,
@@ -15,14 +15,12 @@ export const About = ({ children }) => {
         <Picture src={image} />
       </PictureContainer>
       <TextContainer>
-        <h1 style={HeaderStyle}>About Mo-ments</h1>
-        <p style={BodyStyle}>
+        <Header>About Mo-ments</Header>
+        <Text>
           Mo-ments is an online diary made just for you. Here, you can record
-          your special daily moments and add pictures to it. Feel free to speak
-          your mind in words. Poets are also welcome to use Mo-ments as a means
-          of expressing themselves. Make your special moments and poetry even
+          your special daily moments/ poetry/ plans and add pictures to it. Make your special moments and poetry even
           more special with Mo-ments. Welcome!!!!
-        </p>
+        </Text>
       </TextContainer>
     </AboutContainer>
   );

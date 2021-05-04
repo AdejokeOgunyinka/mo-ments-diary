@@ -1,11 +1,11 @@
 import {React, useState, useEffect} from 'react';
 import {Canvas, Image, LandingPageScreen} from './style';
-// import image from '../../atoms/images/image10.jpg';
+import image from '../../atoms/images/image10.jpg';
 import {NavBar} from '../../molecules/navbar/index';
 import {MobileNavbar} from '../../molecules/mobile_navbar/index';
 import {Menu} from '../../molecules/mobile_menu/index';
-// import {About} from '../../organisms/about/index';
-// import {SignUp} from '../../organisms/sign-up/index';
+import {About} from '../../organisms/about/index';
+import {SignUp} from '../../organisms/sign-up/index';
 
 
 export const LandingPage = ({children}) => {
@@ -26,11 +26,11 @@ export const LandingPage = ({children}) => {
         <LandingPageScreen>
             {width < breakpoint ? <MobileNavbar isMenuOpen={isMenuOpen} setMenuOpen={setMenuOpen}/> : <NavBar />}
             {isMenuOpen && <Menu isMenuOpen={isMenuOpen} setMenuOpen={setMenuOpen}  />}
-            {/* <Canvas>
+            <Canvas>
                 <Image src={image} />
             </Canvas>
             <About/>
-            <SignUp /> */}
+            {/* <SignUp /> */}
         </LandingPageScreen>
     )
 };
