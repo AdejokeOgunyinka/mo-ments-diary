@@ -45,6 +45,12 @@ export const Hamburger = styled(AiOutlineMenu)`
     width: 25px;
     padding: 25px;
 
+    @media(min-width: 411px){
+      padding: 22px;
+      height: 33px;
+      width: 40px;
+    }
+
     @media(min-width: 768px){
         padding: 35px;
         height: 35px;

@@ -1,5 +1,12 @@
 import styled from "styled-components";
 
+
+export const LandingPageScreen = styled.div`
+  position: relative;
+  height: 100vh;
+  display: flex;
+`;
+
 export const Canvas = styled.div`
   width: 100%;
   height: 600px;
